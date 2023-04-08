@@ -1,0 +1,534 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Customer Home</title>
+    <!-- bootstrap -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- bootstrap-js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- My-css -->
+    <link rel="stylesheet" href="/style.css" />
+    <!-- font Aweosm -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><i class="media-icon fa-brands fa-twitter"></i
+        ></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <i class="fa-duotone fa-map-location-dot fa-2xl"></i>
+            </li>
+
+            <li class="nav-item">
+              <div class="search-box">
+                <form class="d-flex">
+                  <input
+                    class="form-control me-2"
+                    type="search"
+                    placeholder="Search"
+                    aria-label="Search"
+                  />
+                  <button class="btn btn-outline-success" type="submit">
+                    Search
+                  </button>
+                </form>
+              </div>
+            </li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Crousal -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="/hiring-g1b68f98a2_1920.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/hiring-g1b68f98a2_1920.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="/hiring-g1b68f98a2_1920.jpg"
+            class="d-block w-100"
+            alt="..."
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--menu-bar-->
+    <div class="menu-bar" style="width: 816px">
+      <table>
+        <tr>
+          <td>
+            <div class="menu-img" title="Appliance Repair">
+              <a href="#first"
+                ><img
+                  class="xuIDb25f"
+                  src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/categories/category_v2/category_72d18950.png"
+              /></a>
+            </div>
+            <span class="bJdW2Qf5">Appliance Repair</span>
+          </td>
+          <td>
+            <div class="menu-img" title="Home Painting">
+              <a href="#second">
+                <img
+                  class="xuIDb25f"
+                  src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1631679515206-a69389.png"
+                  alt=""
+                  itemscope=""
+                  itemprop="image"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <span class="bJdW2Qf5">Home Painting</span>
+          </td>
+          <td>
+            <div class="menu-img" title="Cleaning &amp; Pest">
+              <a href="#third">
+                <img
+                  class="xuIDb25f"
+                  src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/categories/category_v2/category_6b1f5250.png"
+                  alt=""
+                  itemscope=""
+                  itemprop="image"
+                  loading="lazy"
+                />
+              </a>
+            </div>
+            <span class="bJdW2Qf5">Cleaning &amp; Pest</span>
+          </td>
+          <td>
+            <div class="menu-img" title="Disinfection">
+              <a href="#forth">
+                <img
+                  class="xuIDb25f"
+                  src="https://res.cloudinary.com/urbanclap/image/upload/q_auto,f_auto,fl_progressive:steep,w_64/t_high_res_template/images/growth/home-screen/1641213886588-90a903.png"
+                  alt=""
+                  itemscope=""
+                  itemprop="image"
+                  loading="lazy"
+              /></a>
+            </div>
+            <span class="bJdW2Qf5">Disinfection</span>
+          </td>
+          <td>
+            <div class="menu-img"  title="Home Repairs">
+              <a href="#fifth" onmousedown="party.confetti(this)">
+              <img id = "party"
+                class="xuIDb25f"
+                src="data:image/png;base64,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"
+                alt=""
+                itemscope=""
+                itemprop="image"
+                loading="lazy"
+              /></a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- menu-bar END -->
+    <!-- Man-cart -->
+    <h3>Application repair</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="first">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+            class="card-img-top"
+            alt="Hollywood Sign on The Hill"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+            class="card-img-top"
+            alt="Los Angeles Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+            class="card-img-top"
+            alt="Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Home-painting -->
+    <h3>Home Painting</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="second">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+            class="card-img-top"
+            alt="Hollywood Sign on The Hill"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+            class="card-img-top"
+            alt="Los Angeles Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+            class="card-img-top"
+            alt="Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Cleaning_pest -->
+    <h3>Cleaning Pest</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="third">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+            class="card-img-top"
+            alt="Hollywood Sign on The Hill"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+            class="card-img-top"
+            alt="Los Angeles Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+            class="card-img-top"
+            alt="Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Disinfection -->
+    <h3>Disinfection</h3>
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="forth">
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/041.webp"
+            class="card-img-top"
+            alt="Hollywood Sign on The Hill"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/042.webp"
+            class="card-img-top"
+            alt="Palm Springs Road"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/043.webp"
+            class="card-img-top"
+            alt="Los Angeles Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/standard/city/044.webp"
+            class="card-img-top"
+            alt="Skyscrapers"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a longer card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <a href="#" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <script type="module" src="./index.js"></script>
+ 
+  
+    <div id="map"></div>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCKJONlxShBM_53HZ7v5UBwssBa3BIdUwA&callback=initMap&libraries=visualization&v=weekly"
+      defer
+    ></script>
+  <footer>
+    footer
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/party-js@latest/bundle/party.min.js"></script>
+  </body>
+</html>
